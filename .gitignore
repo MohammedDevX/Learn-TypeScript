@@ -1,2 +1,3 @@
-/learn_ts.js
-/learn_ts.js.map
+node_modules/
+*.js
+*.js.map
