@@ -64,8 +64,8 @@ regrouper(1, 2, 3);
 // Generique functions : 
 // Here getTab get an array of T
 function getTab(tab) {
-    // And return an array of T
-    return tab;
+    // Here we return an arrat of 
+    return new Array().concat(tab);
 }
 console.log(getTab([1, 2, 3]));
 //# sourceMappingURL=learn_ts.js.map
