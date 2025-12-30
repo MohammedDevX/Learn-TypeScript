@@ -71,3 +71,11 @@ function regrouper(...tab: number[]) {
     console.log(tab);
 }
 regrouper(1, 2, 3);
+
+// Generique functions : 
+// Here getTab get an array of T
+function getTab<T>(tab: T[]): T[] {
+    // Here we return an arrat of T
+    return new Array().concat(tab);
+}
+console.log(getTab<number>([1,2,3]));

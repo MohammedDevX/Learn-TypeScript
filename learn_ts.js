@@ -53,11 +53,19 @@ console.log(Add(3, 3));
 const somme = (n1, n2) => { let res = n1 + n2; return res; };
 console.log(somme(1, 2));
 let tab = [1, 2, 3];
-// This is called rest 
+// This is called spread operator => remove [] from a table, for ex [1, 2, 3] became (1, 2, 3)
 console.log(...tab);
 console.log(Math.max(...tab));
+// This called rest operator => add [] to a group of data, for ex (1, 2, 3) becale [1, 2, 3]
 function regrouper(...tab) {
     console.log(tab);
 }
 regrouper(1, 2, 3);
+// Generique functions : 
+// Here getTab get an array of T
+function getTab(tab) {
+    // And return an array of T
+    return tab;
+}
+console.log(getTab([1, 2, 3]));
 //# sourceMappingURL=learn_ts.js.map
